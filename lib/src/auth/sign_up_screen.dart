@@ -10,6 +10,7 @@ class SignUpScreen extends StatelessWidget {
       backgroundColor: CustomColors.customSwatchColor,
       body: Column(
         children: [
+          
           const Expanded(
             child: Center(
               child: Text(
@@ -19,7 +20,16 @@ class SignUpScreen extends StatelessWidget {
             ),
           ),
 
-
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 32,
+              vertical: 40
+            ),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.vertical(top: Radius.circular(45)),
+            ),
+          ),
         ],
       ),
     );
